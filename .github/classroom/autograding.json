@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "testRationalAdd",
+      "setup": "make compile",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#testRationalAdd",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "testRationalMult",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#testRationalMult",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "testRationalEqual",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#testRationalEqual",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "testNumeroteSuma",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path build --select-method miTest.AppTest#testNumeroteSuma",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "testNumeroteResta",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path build --select-method miTest.AppTest#testNumeroteResta",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "testFechaEquals",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path build --select-method miTest.AppTest#testFechaEquals",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "testFechaAddDias",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#testFechaAddDias",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "TestFechafechaToDias",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#TestFechafechaToDias",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "TestFechaDiasToFecha",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#TestFechaDiasToFecha",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "TestPoligonoCalcularPerimetro",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#TestPoligonoCalcularPerimetro",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "testPersona",
+      "setup": "",
+      "run": "java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path bin --select-method miTest.AppTest#testPersona",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    }
+  ]
+}

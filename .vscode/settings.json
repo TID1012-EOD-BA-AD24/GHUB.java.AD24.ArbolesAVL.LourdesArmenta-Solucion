@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "demoClaseTree",
+        "miPrincipal/miPrincipal"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/junit-platform-console-standalone-1.5.2.jar"
+    ]
+}
